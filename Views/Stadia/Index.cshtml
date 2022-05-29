@@ -1,0 +1,72 @@
+﻿@model IEnumerable<LibraryWebApplication1.Stadium>
+
+@{
+    ViewData["Title"] = "Стадіони";
+}
+
+<h1>Стадіони</h1>
+
+<p>
+    <a asp-action="Create">Додати стадіон</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.StName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StCapacity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StCityNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.StName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StCapacity)
+            </td>
+            <td>
+                <a style="color:brown" asp-action="DetailsCi" asp-route-id="@item.StCityNavigation.CiId">@Html.DisplayFor(modelItem => item.StCityNavigation.CiName)</a>
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.StId">Змінити</a> |
+                <a asp-action="Details" asp-route-id="@item.StId">Деталі</a> |
+                <a asp-action="Delete" asp-route-id="@item.StId">Видалити</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<div class="container">
+    <div id="chartst"></div>
+</div>
+@section scripts{
+    <script type="text/javascript">
+
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+            
+            $.get('/api/ChartSt/JsonDataSt', function(JsonDataSt) {
+                var data = google.visualization.arrayToDataTable(JsonDataSt, false);
+                var option = {
+                    'title':'Порівняння місткості стадіонів',
+                    'width':900,
+                    'height':500
+                };
+                var chart = new google.visualization.ColumnChart(document.getElementById('chartst'));
+                chart.draw(data, option);
+            })
+        }
+    </script>
+}

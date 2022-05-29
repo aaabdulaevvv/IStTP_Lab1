@@ -1,0 +1,41 @@
+﻿@model LibraryWebApplication1.Team
+
+@{
+    ViewData["Title"] = "Деталі";
+}
+
+<h1>Деталі команди</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TManager)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TManager)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TCityNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TCityNavigation.CiName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TStadiumNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TStadiumNavigation.StName)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.TId">Редагувати</a> |
+    <a asp-action="Index">Команди</a>
+</div>

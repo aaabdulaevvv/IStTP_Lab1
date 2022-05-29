@@ -1,0 +1,13 @@
+﻿@model LibraryWebApplication1.City
+
+@{
+    ViewData["Title"] = "Запит 4";
+}
+
+<h2>Введіть 2 параметри запиту - мінімальна команд у місті та мінімальна кількість матчів для цієї команди</h2>
+
+<form asp-controller="Cities" asp-action="IndexQuery4">
+    Мінімальна кількість команд у місті (x):  <input type="number" id="cnt1" name="cnt1"> <br />
+    Мінімальна кількість матчів команди (p):  <input type="number" id="cnt2" name="cnt2"> <br />
+    <button type="submit">Створити запит</button>
+</form>

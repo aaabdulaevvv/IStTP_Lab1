@@ -1,0 +1,35 @@
+﻿@model LibraryWebApplication1.Stadium
+
+@{
+    ViewData["Title"] = "Деталі";
+}
+
+<h1>Деталі стадіону</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.StName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.StName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.StCapacity)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.StCapacity)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.StCityNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.StCityNavigation.CiName)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.StId">Редагувати</a> |
+    <a asp-action="Index">Стадіони</a>
+</div>

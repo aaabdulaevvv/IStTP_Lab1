@@ -1,0 +1,12 @@
+﻿@model LibraryWebApplication1.City
+
+@{
+    ViewData["Title"] = "Запит 6";
+}
+
+<h2>Введіть параметр запиту - команду Х</h2>
+
+<form asp-controller="Teams" asp-action="IndexQuery6">
+    Параметр запиту:  <input type="text" id="id" name="id"> <br />
+    <button type="submit">Створити запит</button>
+</form>

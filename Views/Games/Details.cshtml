@@ -1,0 +1,41 @@
+﻿@model LibraryWebApplication1.Game
+
+@{
+    ViewData["Title"] = "Деталі";
+}
+
+<h1>Деталі матчу</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.GAttendance)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.GAttendance)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.GStadiumNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.GStadiumNavigation.StName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.GTeamANavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.GTeamANavigation.TName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.GTeamHNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.GTeamHNavigation.TName)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.GId">Редагувати</a> |
+    <a asp-action="Index">Матчі</a>
+</div>

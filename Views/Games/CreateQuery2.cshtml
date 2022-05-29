@@ -1,0 +1,12 @@
+﻿@model LibraryWebApplication1.City
+
+@{
+    ViewData["Title"] = "Запит 2";
+}
+
+<h2>Введіть параметр запиту - мінімальне населення міста яке представляє гостьова команда</h2>
+
+<form asp-controller="Games" asp-action="IndexQuery2">
+    Параметр запиту:  <input type="number" id="cnt" name="cnt"> <br />
+    <button type="submit">Створити запит</button>
+</form>

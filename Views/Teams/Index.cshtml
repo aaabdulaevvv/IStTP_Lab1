@@ -1,0 +1,53 @@
+﻿@model IEnumerable<LibraryWebApplication1.Team>
+
+@{
+    ViewData["Title"] = "Команди";
+}
+
+<h1>Команди</h1>
+
+<p>
+    <a asp-action="Create">Додати команду</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TManager)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TCityNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TStadiumNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TManager)
+            </td>
+            <td>
+                <a style="color:brown" asp-action="DetailsCi" asp-route-id="@item.TCityNavigation.CiId">@Html.DisplayFor(modelItem => item.TCityNavigation.CiName)</a>
+            </td>
+            <td>
+                <a style="color:green" asp-action="DetailsSt" asp-route-id="@item.TStadiumNavigation.StId">@Html.DisplayFor(modelItem => item.TStadiumNavigation.StName)</a>
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.TId">Змінити</a> |
+                <a asp-action="Details" asp-route-id="@item.TId">Деталі</a> |
+                <a asp-action="Delete" asp-route-id="@item.TId">Видалити</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

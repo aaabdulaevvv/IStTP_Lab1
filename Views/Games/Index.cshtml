@@ -1,0 +1,54 @@
+﻿@model IEnumerable<LibraryWebApplication1.Game>
+
+@{
+    ViewData["Title"] = "Матчі плей-оф Ліги чемпіонів УЄФА 2021/22";
+}
+
+<h1>Матчі плей-оф Ліги чемпіонів УЄФА 2021/22</h1>
+
+<p>
+    <a asp-action="Create">Додати матч</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.GTeamHNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GTeamANavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GStadiumNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GAttendance)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                <a style="color:blue" asp-action="DetailsT" asp-route-id="@item.GTeamHNavigation.TId">@Html.DisplayFor(modelItem => item.GTeamHNavigation.TName)</a>
+            </td> 
+            <td>
+                <a style="color:darkorange" asp-action="DetailsT" asp-route-id="@item.GTeamANavigation.TId">@Html.DisplayFor(modelItem => item.GTeamANavigation.TName)</a>
+            </td>
+            <td>
+                <a style="color:green" asp-action="DetailsSt" asp-route-id="@item.GStadiumNavigation.StId">@Html.DisplayFor(modelItem => item.GStadiumNavigation.StName)</a>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GAttendance)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.GId">Змінити</a> |
+                <a asp-action="Details" asp-route-id="@item.GId">Деталі</a> |
+                <a asp-action="Delete" asp-route-id="@item.GId">Видалити</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

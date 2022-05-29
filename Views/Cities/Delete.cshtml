@@ -1,0 +1,39 @@
+﻿@model LibraryWebApplication1.City
+
+@{
+    ViewData["Title"] = "Видалення";
+}
+
+<h1>Видалення</h1>
+
+<h3>Ви точно хочете видалити місто?</h3>
+<div>
+    <h4>City</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CiName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CiName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CiPopulation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CiPopulation)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CiCountryNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CiCountryNavigation.CoName)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="CiId" />
+        <input type="submit" value="Видалити" class="btn btn-danger" /> |
+        <a asp-action="Index1">Міста</a>
+    </form>
+</div>

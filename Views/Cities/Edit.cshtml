@@ -1,0 +1,43 @@
+﻿@model LibraryWebApplication1.City
+
+@{
+    ViewData["Title"] = "Редагувати";
+}
+
+<h1>Редагування</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CiName" class="control-label"></label>
+                <input asp-for="CiName" class="form-control" />
+                <span asp-validation-for="CiName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CiCountry" class="control-label"></label>
+                <select asp-for="CiCountry" class="form-control" asp-items="ViewBag.CiCountry"></select>
+                <span asp-validation-for="CiCountry" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CiPopulation" class="control-label"></label>
+                <input asp-for="CiPopulation" class="form-control" />
+                <span asp-validation-for="CiPopulation" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="CiId" />
+            <div class="form-group">
+                <input type="submit" value="Зберегти" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index1">Міста</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,27 @@
+﻿@model IEnumerable<LibraryWebApplication1.City>
+
+@{
+    ViewData["Title"] = "Запит 1";
+}
+
+<h1>Запит 4</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CiName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CiName)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,38 @@
+﻿@model LibraryWebApplication1.Country
+
+@{
+    ViewData["Title"] = "Редагувати";
+}
+
+<h1>Редагування</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CoName" class="control-label"></label>
+                <input asp-for="CoName" class="form-control" />
+                <span asp-validation-for="CoName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CoPopulation" class="control-label"></label>
+                <input asp-for="CoPopulation" class="form-control" />
+                <span asp-validation-for="CoPopulation" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="CoId" />
+            <div class="form-group">
+                <input type="submit" value="Зберегти" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Країни</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

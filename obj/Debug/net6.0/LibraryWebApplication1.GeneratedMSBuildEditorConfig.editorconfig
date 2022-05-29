@@ -1,0 +1,216 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LibraryWebApplication1
+build_property.RootNamespace = LibraryWebApplication1
+build_property.ProjectDir = C:\Program Files\compabdul_vs\LibraryWebApplication1\LibraryWebApplication1\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Program Files\compabdul_vs\LibraryWebApplication1\LibraryWebApplication1
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Cities/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0aWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Cities/CreateQuery1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0aWVzXENyZWF0ZVF1ZXJ5MS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Cities/CreateQuery4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0aWVzXENyZWF0ZVF1ZXJ5NC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Cities/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0aWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Cities/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0aWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Cities/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0aWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Cities/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0aWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Cities/Index1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0aWVzXEluZGV4MS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Cities/IndexQuery1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0aWVzXEluZGV4UXVlcnkxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Cities/IndexQuery4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0aWVzXEluZGV4UXVlcnk0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Countries/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Countries/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Countries/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Countries/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Countries/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Games/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Games/CreateQuery2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcQ3JlYXRlUXVlcnkyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Games/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Games/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Games/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Games/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Games/IndexQuery2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcSW5kZXhRdWVyeTIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Home/Queries.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxRdWVyaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Stadia/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZGlhXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Stadia/CreateQuery5.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZGlhXENyZWF0ZVF1ZXJ5NS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Stadia/CreateQuery7.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZGlhXENyZWF0ZVF1ZXJ5Ny5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Stadia/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZGlhXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Stadia/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZGlhXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Stadia/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZGlhXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Stadia/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZGlhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Stadia/IndexQuery5.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZGlhXEluZGV4UXVlcnk1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Stadia/IndexQuery7.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZGlhXEluZGV4UXVlcnk3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Teams/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Teams/CreateQuery3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcQ3JlYXRlUXVlcnkzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Teams/CreateQuery6.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcQ3JlYXRlUXVlcnk2LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Teams/CreateQuery8.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcQ3JlYXRlUXVlcnk4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Teams/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Teams/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Teams/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Teams/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Teams/IndexQuery3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcSW5kZXhRdWVyeTMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Teams/IndexQuery6.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcSW5kZXhRdWVyeTYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Teams/IndexQuery8.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcSW5kZXhRdWVyeTguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Program Files/compabdul_vs/LibraryWebApplication1/LibraryWebApplication1/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zecubfpopr

@@ -1,0 +1,12 @@
+﻿@model LibraryWebApplication1.City
+
+@{
+    ViewData["Title"] = "Запит 3";
+}
+
+<h2>Введіть параметр запиту - мінімальна присутність на стадіоні</h2>
+
+<form asp-controller="Teams" asp-action="IndexQuery3">
+    Параметр запиту:  <input type="number" id="cnt" name="cnt"> <br />
+    <button type="submit">Створити запит</button>
+</form>

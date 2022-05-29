@@ -1,0 +1,48 @@
+﻿@model LibraryWebApplication1.Team
+
+@{
+    ViewData["Title"] = "Редагувати";
+}
+
+<h1>Редагування</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="TName" class="control-label"></label>
+                <input asp-for="TName" class="form-control" />
+                <span asp-validation-for="TName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TCity" class="control-label"></label>
+                <select asp-for="TCity" class="form-control" asp-items="ViewBag.TCity"></select>
+                <span asp-validation-for="TCity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TStadium" class="control-label"></label>
+                <select asp-for="TStadium" class="form-control" asp-items="ViewBag.TStadium"></select>
+                <span asp-validation-for="TStadium" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TManager" class="control-label"></label>
+                <input asp-for="TManager" class="form-control" />
+                <span asp-validation-for="TManager" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="TId" />
+            <div class="form-group">
+                <input type="submit" value="Зберегти" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Команди</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

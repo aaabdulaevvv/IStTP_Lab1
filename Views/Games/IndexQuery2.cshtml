@@ -1,0 +1,32 @@
+﻿@model IEnumerable<LibraryWebApplication1.Game>
+
+@{
+    ViewData["Title"] = "Запит 2";
+}
+
+<h1>Запит 2</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.GTeamHNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GTeamANavigation)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.GTeamH)
+            </td> 
+            <td>
+                @Html.DisplayFor(modelItem => item.GTeamA)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
